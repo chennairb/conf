@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Madras Ruby Conf 2015</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/conf.css">
+
+<!-- 
+    The other fonts
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+ -->
+
+     <link href='http://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css'>
+
+
+  </head>
+
+  <body>
+
+    <div class='container'>
+      <div class='row' id='main'>
+        <div class="col-md-offset-2 col-md-5" id='text'>
+          <h1 class='heading heading-font4'>Madras Ruby Conf</h1>
+          <div id='intro'>
+            A conference by 
+            <a href="http://chennai-ruby.org">
+              the Ruby community in Chennai
+            </a>
+            <br>
+            <span class='date-n-time'>
+              November 2015
+            </span>
+
+            <br><br><br>
+            <a href="https://twitter.com/madrasrubyconf">Subcribe for updates</a>
+            or
+            <a href="https://chennairb.slack.com" class=''>Join the discussion on Slack</a>
+          </div>
+        </div>
+
+
+        <div class="col-md-3" id='pics' style='width: 300px'>
+          <div id="slides">
+            <img src="http://photos4.meetupstatic.com/photos/event/d/8/8/5/600_434515429.jpeg" />
+            <img src="http://photos1.meetupstatic.com/photos/event/3/8/e/0/600_434654560.jpeg" />
+            <img src="http://photos1.meetupstatic.com/photos/event/3/8/e/2/600_434654562.jpeg" />
+            <img src="http://photos3.meetupstatic.com/photos/event/8/f/c/2/600_419316802.jpeg" />
+            <img src="http://photos3.meetupstatic.com/photos/event/d/b/d/a/600_419336282.jpeg" />
+            <img src="http://photos3.meetupstatic.com/photos/event/8/f/c/c/600_419316812.jpeg" />
+            <img src="http://photos2.meetupstatic.com/photos/event/7/5/9/6/600_355290102.jpeg" />
+            <img src="http://photos2.meetupstatic.com/photos/event/9/2/b/0/600_354757552.jpeg" />
+            <img src="http://photos3.meetupstatic.com/photos/event/8/d/9/2/600_354756242.jpeg" />
+            <img src="http://photos1.meetupstatic.com/photos/event/6/3/8/4/600_435685476.jpeg" />
+            <img src="http://photos3.meetupstatic.com/photos/event/6/3/8/b/600_435685483.jpeg" />
+            <img src="http://photos2.meetupstatic.com/photos/event/d/b/8/a/600_354656202.jpeg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.slides.min.js"></script>
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        navigation: {
+          active: false,
+        },
+        pagination: {
+          active: false,
+        },
+        play: {
+          active: true,
+          auto: true,
+          interval: 3000,
+          swap: true,
+          effect: 'fade'
+        },
+        callback: {
+          loaded: function(){
+            $('.slidesjs-navigation, .slidesjs-pagination').hide(0); // To hide navigation and pagination
+          }
+        }        
+      });
+    });
+  </script>
+
+  </body>
+</html>
+
+
+<!-- The Images
+  From Meetup.com:
+    http://photos4.meetupstatic.com/photos/event/d/8/8/5/600_434515429.jpeg
+    http://photos1.meetupstatic.com/photos/event/3/8/e/0/600_434654560.jpeg
+    http://photos1.meetupstatic.com/photos/event/3/8/e/2/600_434654562.jpeg
+    http://photos3.meetupstatic.com/photos/event/8/f/c/2/600_419316802.jpeg
+    http://photos3.meetupstatic.com/photos/event/d/b/d/a/600_419336282.jpeg
+    http://photos3.meetupstatic.com/photos/event/8/f/c/c/600_419316812.jpeg
+    http://photos2.meetupstatic.com/photos/event/7/5/9/6/600_355290102.jpeg
+    http://photos2.meetupstatic.com/photos/event/9/2/b/0/600_354757552.jpeg
+    http://photos3.meetupstatic.com/photos/event/8/d/9/2/600_354756242.jpeg
+    http://photos1.meetupstatic.com/photos/event/6/3/8/4/600_435685476.jpeg
+    http://photos3.meetupstatic.com/photos/event/6/3/8/b/600_435685483.jpeg
+    http://photos2.meetupstatic.com/photos/event/d/b/8/a/600_354656202.jpeg
+ -->

@@ -1,0 +1,58 @@
+#main{
+  margin-top: 15rem;
+}
+
+.heading{
+  font-size: 6rem;
+  font-weight: bold;
+  color: maroon;
+  margin-top: 0;  
+}
+
+.heading-font1{
+  font-family: 'Droid Serif', serif;
+}
+
+.heading-font2{
+  font-family: 'Vollkorn', serif;
+}
+
+.heading-font3{
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+/* Currently in use */
+.heading-font4{
+  font-family: 'Neuton', serif;
+}
+
+.heading-font5{
+  font-family: 'Bree Serif', serif;
+}
+
+#intro{
+  font-size: 2rem;
+  font-family: 'Neuton', serif;
+}
+
+#intro a, a:hover, a:visited{
+  color: maroon;
+  text-decoration: none;
+}
+
+#intro .btn{
+  color: maroon;
+  font-family: verdana, sans-serif;
+  font-size: 2rem;
+  border-radius: 0;
+}
+
+#text{
+  height: 20rem;
+}
+
+#pics{
+  height: 25rem;
+  padding-top: 6rem; /* Nearly the same as the heigth of the heading */
+}
