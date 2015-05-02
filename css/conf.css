@@ -1,7 +1,31 @@
-#header{
-  margin-top: 15rem;
-  text-align: center;
+@media (max-width: 767px) {
+  #header{
+    margin-top: 0;
+    text-align: left
+  }
+  #main .actions{
+    margin-top: 1rem;
+  }
+  #pics{
+    margin-top: 2rem;
+    height: 25rem;
+  }
+
 }
+
+@media (min-width: 768px) {
+  #header{
+    margin-top: 15rem;
+    text-align: center;
+  }
+  #main .actions{
+    margin-top: 2rem;
+  }
+  #pics{
+    height: 25rem;
+  }
+}
+
 
 .heading{
   font-size: 6rem;
@@ -55,10 +79,6 @@
 
 #text{
   height: 20rem;
-}
-
-#pics{
-  height: 25rem;
 }
 
 #slack-invite-form{
